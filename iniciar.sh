@@ -13,7 +13,7 @@ source $ENV_NAME/bin/activate
 
 # Inicia la aplicación con el modelo Stable Diffusion Inpainting
 echo "Iniciando IOPaint con el modelo Stable Diffusion Inpainting..."
-iopaint start --model=sd-v1-5-inpainting --device=cuda
+iopaint start --model=runwayml/stable-diffusion-inpainting --device=cuda
 
 # Opcional: Para usar el modelo LaMa, descomenta la línea de abajo y comenta la de arriba
 # echo "Iniciando IOPaint con el modelo LaMa..."
